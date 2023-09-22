@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+
+        .imagen {
+            flex: 1; /* Hace que la imagen ocupe la mitad izquierda del contenedor */
+            padding: 20px; /* Espaciado opcional */
+        }
+
+        .descripcion {
+            flex: 1; /* Hace que la descripción ocupe la mitad derecha del contenedor */
+            padding: 20px; /* Espaciado opcional */
+        }
+    </style>
+    <title>Catalogo</title>
+</head>
+<body>
+    <div id="Encabezado">
+        <div id="Menu">
+            <ul>
+                <li><a href="index.html" title="Pagina principal">Inicio</a></li>
+                <li><a href="nosotros.html" title="Descripcion del negocio">Nosotros</a></li>
+                <li><a href="catalogo.html" title="Catalogo">Nuestros productos</a></li>
+                <li><a href="galeria.html" title="Fotos">Galeria</a></li>
+                <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="Datos">
+            <div class="container">
+                <div class="imagen">
+                    <img src="img/Platillo 1.jpeg" alt="Platillo1">
+                    <img src="img/Platillo 3.jpg" alt="Platillo3" width="301px" height="169px">
+                    <img src="img/Platillo 2.jpg" alt="Platillo2" width="301px" height="169px">
+                </div>
+                <div class="Descripcion">
+                    <h1>Tacos Dorados</h1>
+                    <p style="text-align: left;">Estos son unos ricos tacos al gusto los cuales se frien 
+                    para que tenga una textura crujiente y se acompaña con salsa, limon y rabanos</p>
+                    <h4>Precio: $50</h4><br><br>
+                    <h1>Empanadas</h1>
+                    <p style="text-align: left;">Estas empanadas se doblan en forma de semicírculo o círculo y luego se sellan en los bordes antes de ser cocidas. Los rellenos pueden incluir carne, pollo, pescado, frijoles, queso, chiles, verduras y una mezcla de sabores típicos de México.</p>
+                    <h4>Precio: $70</h4><br><br>
+                    <h1>Pescado Zarandeado</h1>
+                    <p style="text-align: left;">su cocción a la parrilla sobre brasas o leña, lo que le otorga un sabor ahumado y un toque de chispa. Durante la parrillada, el pescado se barniza repetidamente con la marinada para mantenerlo jugoso y aromático.</p>
+                    <h4>Precio: $120</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="piePagina"></div>
+</body>
+</html>
